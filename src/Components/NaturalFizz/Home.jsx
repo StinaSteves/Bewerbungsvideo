@@ -4,40 +4,40 @@ import "./Home.css";
 const mapFlavors = [
   {
     name: "Lemon",
-    fruitCan: "/images/NaturalFizz/lemonCan.png",
-    fruit: "/images/NaturalFizz/lemon.png",
+    fruitCan: "/public/images/NaturalFizz/lemonCan.png",
+    fruit: "/public/images/NaturalFizz/lemon.png",
     backgroundColor: "#f4d453",
     flavorDescription:
       "The organic lemon soda tingles refreshingly on the tongue, zesty acidity from freshly squeezed lemons.",
   },
   {
     name: "Apple",
-    fruitCan: "/images/NaturalFizz/appleCan.png",
-    fruit: "/images/NaturalFizz/apple.png",
+    fruitCan: "/public/images/NaturalFizz/appleCan.png",
+    fruit: "/public/images/NaturalFizz/apple.png",
     backgroundColor: "#ea3f48",
     flavorDescription:
       "The organic apple soda is crisp and refreshing, with a burst of sweet, juicy apples.",
   },
   {
     name: "Blueberry",
-    fruitCan: "/images/NaturalFizz/blueberryCan.png",
-    fruit: "/images/NaturalFizz/blueberry.png",
+    fruitCan: "/public/images/NaturalFizz/blueberryCan.png",
+    fruit: "/public/images/NaturalFizz/blueberry.png",
     backgroundColor: "#8b90ae",
     flavorDescription:
       "The organic blueberry soda is vibrant and tangy, with a burst of sweet, wild blueberries.",
   },
   {
     name: "Peach",
-    fruitCan: "/images/NaturalFizz/peachCan.png",
-    fruit: "/images/NaturalFizz/peach.png",
+    fruitCan: "/public/images/NaturalFizz/peachCan.png",
+    fruit: "/public/images/NaturalFizz/peach.png",
     backgroundColor: "#f9af3c",
     flavorDescription:
       "The organic peach soda is sweet and juicy, with a smooth, mellow flavor of ripe peaches.",
   },
   {
     name: "Unlocking the Power",
-    fruitCan: "/images/NaturalFizz/peachCan.png",
-    fruit: "/images/NaturalFizz/waterDrops.png",
+    fruitCan: "/public/images/NaturalFizz/peachCan.png",
+    fruit: "/public/images/NaturalFizz/waterDrops.png",
     backgroundColor: "#f9af3c",
     flavorDescription:
       "BUY NATURALFIZZ NOW!",
