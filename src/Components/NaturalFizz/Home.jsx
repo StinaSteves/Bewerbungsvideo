@@ -7,8 +7,8 @@ import "./Home.css";
 const mapFlavors = [
   {
     name: "Lemon",
-    fruitCan: "/Bewerbungsvideo/public/images/NaturalFizz/lemonCan.png",
-    fruit: "/Bewerbungsvideo/public/images/NaturalFizz/lemon.png",
+    fruitCan: "/images/NaturalFizz/lemonCan.png",
+    fruit: "images/NaturalFizz/lemon.png",
     backgroundColor: "#f4d453",
     flavorDescription:
       "The organic lemon soda tingles refreshingly on the tongue, zesty acidity from freshly squeezed lemons.",
