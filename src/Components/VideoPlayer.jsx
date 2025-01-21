@@ -118,7 +118,7 @@ const VideoPlayer = ({ onTimeUpdate }) => {
       <video
         ref={videoRef}
         onTimeUpdate={handleTimeUpdate}
-        src="./Videos/Bewerbungsvideo.mp4"
+        src="Videos/Bewerbungsvideo.mp4"
         className="video-element"
       ></video>
 
