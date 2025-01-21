@@ -8,7 +8,7 @@ export default defineConfig({
     {
       name: 'copy-lfs-files',
       closeBundle() {
-        copyFileSync('/public/Videos/Bewerbungsvideo.mp4', 'dist/Videos/Bewerbungsvideo.mp4');
+        copyFileSync('public/Videos/Bewerbungsvideo.mp4', 'dist/Videos/Bewerbungsvideo.mp4');
       },
     },
   ],
