@@ -1,0 +1,22 @@
+.info-container {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .info-container h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .info-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .info-container ul li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }

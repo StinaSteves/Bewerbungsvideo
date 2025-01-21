@@ -1,0 +1,82 @@
+.video-container {
+  position: relative;
+  transition: all 0.5s ease; 
+}
+
+.video-element {
+  width: 100%;
+  display: block;
+}
+
+.progress-bar {
+  position: absolute;
+  margin-left: 10px;
+  margin-right: 10px;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.progress {
+  height: 100%;
+  background-color: red;
+}
+
+.controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to top, black, transparent);
+  color: white;
+  padding: 10px 15px;
+  transition: opacity 0.3s ease;
+}
+
+.controls-left,
+.controls-right {
+  display: flex;
+  align-items: center;
+}
+
+.control-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.control-button:hover {
+  color: red;
+}
+
+.time-display {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.volume-slider {
+  margin: 0 10px;
+  width: 100px;
+}
+
+.mini-video {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 400px;
+  height: 224px;
+  z-index: 10;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  overflow: hidden;
+  transition: all 0.5s ease; 
+}

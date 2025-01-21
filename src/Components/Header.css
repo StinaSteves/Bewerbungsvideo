@@ -1,0 +1,111 @@
+.headerContainer {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 35px;
+    padding: 10px 0 25px 0;
+    margin: auto;
+  }
+  
+  .box {
+    padding: 5px;
+    height: 100%;
+  }
+  
+
+  .left {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px;
+    min-width: 100px; 
+    max-width: 640px; 
+  }
+  
+  .right {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+  }
+
+  .left, .right {
+    min-width: 120px; 
+    max-width: 200px; 
+  }
+  
+
+  .border {
+    display: flex;
+    border-radius: 20px / 20px; 
+    border: 1px solid var(--hover-color); 
+    overflow: hidden;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+
+  .button {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 40px; 
+    height: 40px; 
+    border-radius: 20px / 20px;
+    transition: all 0.3s ease; 
+  }
+
+  .button:hover {
+    background-color: var(--hover-color);
+  }
+
+
+  .icon {
+    padding: 0 15px 0 15px;
+  }
+
+  .searchField{
+    font-size: 1.6rem;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    padding-left: 15px;
+    width: 100%;
+    height:36px;
+    background-color: var(--background-color);
+    border: none;
+
+    color: var(--text-color);
+  }
+
+  .stretch{
+    width: 100%;
+    background-color: var(--accent-color);
+  }
+
+
+  .signIn{
+    height:30px;
+    width: 125px;
+    padding: 2px;
+    margin-right: 10px;
+  }
+
+  .microphone{
+    background-color: var(--accent-color);
+    margin-top: 3pxz;
+  }
+
+  .signIn.icon{
+    padding: 0 10px 0 10px; 
+  }
+
+  .search .icon{
+    height: 25px;
+    width: 50px;
+  }
